@@ -129,16 +129,16 @@ section {
 #dugme {
     flex-grow: 1;
     text-align: right;
-    margin: 10px;
+    margin: 1fpx;
 }
 #dugme button {
     background-color: rgb(247, 217, 229);
     color: rgb(190, 69, 146);
     border-radius: 10px;
-    border: 1px solid rgb(138, 138, 138);
+    border: 1px solid rgb(190, 69, 146);
 }
 #dugme button:hover {
-    border: 1px solid  rgb(190, 69, 146);
+    opacity: 0.7;
 }
 
 /* podnozje */
@@ -178,4 +178,8 @@ footer {
 #podnozje p {
     margin: 0px;
     line-height: 15px;
+}
+
+#kljucnereci {
+    display: none;
 }
